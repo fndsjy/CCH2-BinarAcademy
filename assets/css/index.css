@@ -19,16 +19,16 @@ header {
 
 .navbar {
     z-index: 2;
-    margin: 0 0 0 -10%;
     min-height: 8%;
-    padding: 2px 0 0 10%;
+    padding: 2px 0 0 7.2%;
     background-color: #F1F3FF;
-    width: 120%;
+    width: 100%;
+    margin-left: -0.9%;
     align-items: center;
 }
 
 .navbar .nav {
-    padding-right: 24%;
+    padding-right: 8%;
 }
 
 .navbar .nav-item .nav-link {
@@ -139,7 +139,7 @@ header {
 
 /* Section Why Us */
 
-#why-us .container-lg .row h1 {
+#why-us .row h1 {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
@@ -148,7 +148,7 @@ header {
     margin-top: 7%;
 }
 
-#why-us .container-lg .row p {
+#why-us .row p {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 300;
@@ -156,7 +156,7 @@ header {
     line-height: 20px;
 }
 
-#why-us .container-lg .row .col .card {
+#why-us .card {
     min-width: 250px;
     min-height: 196px;
     border: 1px solid#D0D0D0;
@@ -164,12 +164,12 @@ header {
     justify-content: center;
 }
 
-#why-us .container-lg .row .col .card img {
+#why-us .card img {
     width: 20%;
     padding: 10px 0 20px 10px;
 }
 
-#why-us .container-lg .row .col .card h5 {
+#why-us .card h5 {
     padding: 0 0 0 10px;
     margin-bottom: -10px;
     font-family: 'Helvetica';
@@ -179,7 +179,7 @@ header {
     line-height: 24px;
 }
 
-#why-us .container-lg .row .col .card p {
+#why-us .card p {
     width: 100%;
     padding-left: 10px;
     font-family: 'Helvetica';
@@ -386,7 +386,7 @@ header {
 
 /* Section CTA Banner */
 
-#cta-banner .container-lg .row .card {
+#cta-banner .row .card {
     max-width: 98%;
     min-height: 330px;
     background-color: #0D28A6;
@@ -394,7 +394,7 @@ header {
     margin-left: 1%;
 }
 
-#cta-banner .container-lg .row .card-body .card-title {
+#cta-banner .row .card-body .card-title {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
@@ -407,7 +407,7 @@ header {
     font-weight: bolder;
 }
 
-#cta-banner .container-lg .row .card-body .card-text {
+#cta-banner .row .card-body .card-text {
     font-family: 'Helvetica';
     font-style: normal;
     font-size: 14px;
@@ -419,7 +419,7 @@ header {
     font-weight: 100;
 }
 
-#cta-banner .container-lg .row .card-body .btn {
+#cta-banner .row .card-body .btn {
     justify-content: center;
     align-items: center;
     padding: 8px 12px;
@@ -438,7 +438,7 @@ header {
     margin-top: 10px;
 }
 
-#faq .container-lg .row .col-lg-4 h1 {
+#faq .row .col-lg-4 h1 {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
@@ -446,7 +446,7 @@ header {
     line-height: 36px;
 }
 
-#faq .container-lg .row .col-lg-4 p {
+#faq .row .col-lg-4 p {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 300;
@@ -454,7 +454,7 @@ header {
     line-height: 20px;
 }
 
-#faq .container-lg .row .col-lg-8 .accordion {
+#faq .row .col-lg-8 .accordion {
     background: #FFFFFF;
     border: 1px solid#D4D4D4;
     border-radius: 4px;
@@ -462,7 +462,7 @@ header {
     min-width: 89%;
 }
 
-#faq .container-lg .row .col-lg-8 .accordion .accordion-header {
+#faq .row .col-lg-8 .accordion .accordion-header {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 300;
@@ -470,7 +470,7 @@ header {
     line-height: 20px;
 }
 
-#faq .container-lg .row .col-lg-8 .accordion .accordion-body {
+#faq .row .col-lg-8 .accordion .accordion-body {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 100;
@@ -486,7 +486,7 @@ footer {
     margin: 5% 0 3% 0;
 }
 
-footer .container-lg .row .col p {
+footer .row p {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 300;
@@ -495,16 +495,16 @@ footer .container-lg .row .col p {
     width: 95%;
 }
 
-footer .container-lg .row .col.col-lg-2 ul {
+footer .row ul {
     list-style: none;
     padding-top: 12%;
 }
 
-footer .container-lg .row .col.col-lg-2 li {
+footer .row li {
     margin-bottom: 10%;
 }
 
-footer .container-lg .row .col.col-lg-2 a {
+footer .row a {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
@@ -514,13 +514,13 @@ footer .container-lg .row .col.col-lg-2 a {
     width: 10px;
 }
 
-footer .container-lg .row .col .row img {
+footer .row .row img {
     width: 55px;
     height: 30px;
     margin-top: -13%;
 }
 
-footer .container-lg .row .col.col-lg-3 img {
+footer .row #logo-custom {
     width: 100px;
     height: 34px;
 }
