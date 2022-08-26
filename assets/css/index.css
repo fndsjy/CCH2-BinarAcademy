@@ -199,7 +199,7 @@ header {
     font-size: 24px;
     line-height: 36px;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 #testimonial p {
@@ -323,25 +323,37 @@ header {
     transform: rotate(180deg);
 }
 
+@media screen and (min-width: 315px){
+    #testimonial .carousel-button {
+        top: 360px;
+    }
+}
+
+@media screen and (min-width: 339px){
+    #testimonial .carousel-button {
+        top: 320px;
+    }
+}
+
+@media screen and (min-width: 385px){
+    #testimonial .carousel-button {
+        top: 290px;
+    }
+}
+
+@media screen and (min-width: 425px){
+    #testimonial .carousel-button {
+        top: 260px;
+    }
+}
+
+@media screen and (min-width: 495px) and (max-width: 575px){
+    #testimonial .carousel-button {
+        top: 210px;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    .navbar-collapse {
-        align-items: flex-start;
-    }
-    .navbar-collapse ul {
-        margin-left: 1rem;
-    }
-    .offcanvas {
-        max-width: 50%;
-    }
-    .mycard {
-        width: 100% !important;
-    }
-    #faq-section .faq-container {
-        align-items: center;
-    }
-    .footer-child ul {
-        padding: 0px !important;
-    }
     .carousel-card {
         flex-direction: column;
     }
@@ -360,26 +372,7 @@ header {
     }
     .carousel-button {
         position: absolute;
-        z-index: 10;
         top: 425px;
-    }
-    .accordion {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 990px) {
-    .hero-desc {
-        padding: 5rem;
-        max-width: 50%;
-    }
-    .accordion {
-        max-width: 50%;
-        width: 50%;
-    }
-    .hero-ills {
-        max-width: 50%;
     }
 }
 
